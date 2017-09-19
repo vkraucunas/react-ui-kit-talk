@@ -7,3 +7,4 @@
 
 ## Into the Code
 - At `App.js` had to wrap it in `<MuiThemeProvider>`
+- Import each component I would like to use. The documentation was very helpful here.
