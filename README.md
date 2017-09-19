@@ -20,3 +20,9 @@ UI Frameworks are meant to help engineers prototype new ideas swiftly and seamle
 - Ease of use
 - 1 hour time box to incorporate the library
 - Identified issues
+
+## Process
+- `create-react-app appName`
+- `yarn eject`
+- Install library
+- Follow instructions in documentation to get started with the library
