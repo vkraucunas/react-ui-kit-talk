@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 50%;
+}
