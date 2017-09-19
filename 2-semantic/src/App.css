@@ -16,7 +16,20 @@
 
 .App-content {
   padding-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.list {
+  list-style-type: none !important;
+}
+/*
+li {
+  list-style: none;
+} */
 
 .inline {
   display: inline;

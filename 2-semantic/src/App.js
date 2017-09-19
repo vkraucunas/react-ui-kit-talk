@@ -37,16 +37,16 @@ class App extends Component {
             <h2>All the To Dos!</h2>
           </div>
           <div className="App-content">
-          <Form onSubmit={this.handleSubmit}>
-            <Form.Field>
-              <label className="margin">Task</label>
-              <input value={currentTask} onChange={this.handleChange} />
-            </Form.Field>
-            <Button type='submit' onClick={this.handleSubmit}>Submit</Button>
-          </Form>
+            <Form onSubmit={this.handleSubmit} as="form">
+              <Form.Field>
+                <label className="margin">Task</label>
+                <input value={currentTask} onChange={this.handleChange} />
+              </Form.Field>
+              <Button as="button" type='submit' onClick={this.handleSubmit}>Submit</Button>
+            </Form>
             <hr/>
             <h3>Tasks</h3>
-            <List className="list">
+            <List className="list" as="ul">
               {tasks.map((task, index) => (
                 <div key={index}>
                   <Checkbox className="inline margin"/>
