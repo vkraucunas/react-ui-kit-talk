@@ -22,7 +22,7 @@ UI Frameworks are meant to help engineers prototype new ideas swiftly and seamle
 - Identified issues
 
 ## Process
-- `create-react-app appName`
+- `create-react-app appName` (with the exception of for the Ant demo)
 - `yarn eject`
 - Install library
 - Follow instructions in documentation to get started with the library
