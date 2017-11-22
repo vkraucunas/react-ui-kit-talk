@@ -53,6 +53,7 @@ class App extends Component {
                   <List.Item
                     className="inline"
                     content={task}
+                    as="li"
                   />
                 </div>
               ))
